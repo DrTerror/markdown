@@ -20,6 +20,8 @@ This is [an example][id] reference-style link.
 - ~~strikedthrough~~
 - combined: ***three asterisks***
 
+<span style="color:red">red text</span>
+
 ### Code
 Use the `printf()` function.
 
@@ -33,6 +35,8 @@ Use the `printf()` function.
 <!-- [from](https://app.diagrams.net) -->
 ![Installation](./doc/test.drawio.svg "diagram test")
 
+### Emojis
+:warning: ATTENTION :warning:
 
 ## Footnotes
 here is a note [^1] . look down -.-
@@ -46,4 +50,3 @@ block comment
 
 <!-- not supported by every interpreter! -->
 [^1]: footnote text
-
