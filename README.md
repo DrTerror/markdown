@@ -19,8 +19,9 @@ This is [an example][id] reference-style link.
 - bold: __double underscores__
 - ~~strikedthrough~~
 - combined: ***three asterisks***
-
-<span style="color:red">red text</span>
+- <span style="color:red">red text</span>
+- <font color="red">This text is red!</font>
+- <p style="color:blue">Make this text blue.</p>
 
 ### Code
 Use the `printf()` function.
@@ -38,8 +39,34 @@ Use the `printf()` function.
 ### Emojis
 :warning: ATTENTION :warning:
 
+### Arrows
+- Up arrow (↑): &uarr;
+- Down arrow (↓): &darr;
+- Left arrow (←): &larr;
+- Right arrow (→): &rarr;
+- Double headed arrow (↔): &harr;
+
+
+## Tables
+| **left**        | **centre**   | **right** |
+| :---------- | :------: | ----: |
+| Paragraph   | First paragraph. <br><br> Second paragraph. | test
+
+- `-` means the column is left aligned.
+- `--:` means the column is right aligned.
+- `:-:` means the column is center aligned.
+
+
 ## Footnotes
 here is a note [^1] . look down -.-
+
+
+## Links 
+### internal / local
+- [Tables](#tables)
+### external
+- [Markdown Hacks](https://www.markdownguide.org/hacks/)
+- [Arrows](https://www.toptal.com/designers/htmlarrows/arrows/)
 
 ---
 ## Comments
@@ -47,6 +74,9 @@ here is a note [^1] . look down -.-
 <!-- 
 block comment
 -->
+
+[This is a comment that will be hidden.]: place_some_single_worded_text_here
+
 
 <!-- not supported by every interpreter! -->
 [^1]: footnote text
